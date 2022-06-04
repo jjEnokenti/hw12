@@ -2,7 +2,7 @@
 from flask import Blueprint, send_from_directory, render_template, request
 
 # Импорт из пользовательского модуля функций для валидации и работы с файлами
-from functions import save_post_into_json, is_file_allowed
+from utils import save_post_into_json, is_file_allowed
 # Импорт логгера
 from logger import logger
 

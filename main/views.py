@@ -2,7 +2,7 @@
 from flask import Blueprint, render_template, request
 
 # Импорт из пользовательского модуля функций для валидации и работы с файлами
-from functions import search_by_keyword
+from utils import search_by_keyword
 # Импорт логгера
 from logger import logger
 

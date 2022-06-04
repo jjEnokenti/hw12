@@ -1,6 +1,5 @@
 import json
 
-
 # Путь к файлу json с постами
 POST_PATH = "posts.json"
 # Поддерживаемые расширения
@@ -70,7 +69,6 @@ def save_post_into_json(path_save, content, path=POST_PATH):
 
     # Запись готовых данных с новым постом в файл json
     with open(path, 'w', encoding='utf-8') as file:
-
         json.dump(data, file, ensure_ascii=False, indent=3)
 
 
