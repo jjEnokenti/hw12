@@ -24,7 +24,6 @@ if os.environ.get("APP_CONFIG") == "development":
 else:
     app.config.from_pyfile('config/production.py')
 
-print(app.config.get("MY_VALUE"))
 
 if __name__ == "__main__":
     app.run()
